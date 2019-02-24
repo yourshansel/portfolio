@@ -8,7 +8,7 @@ import Header from './HeaderComponent.js';
 
 const GlobalStyles = createGlobalStyle`
   body {
-    @import url('https://fonts.googleapis.com/css?family=Notable');
+    @import url('https://cdn.staticaly.com/gh/yourshansel/portfolio/6526c07b/src/fonts/CenturyGothic.ttf');
     font-family: 'CenturyGothic',;
   }
 `
@@ -31,6 +31,8 @@ class App extends Component {
   render() {
     return (
 
+      <div>
+      <GlobalStyles />
       <Page>
       <Wrapper>
         <Header/>
@@ -39,7 +41,7 @@ class App extends Component {
       </Wrapper>
       <Social/>
       </Page>
-
+      </div>
     );
   }
 }

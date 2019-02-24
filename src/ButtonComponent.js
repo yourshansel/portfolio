@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { slideUp }  from './Animation.js';
-
+import './fonts.css';
 
 
 const ButtonBackground = styled.div`
@@ -24,8 +24,7 @@ const ButtonLabel = styled.a`
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
-  font-family: 'Century Gothic';
-  font-weight: 600;
+  font-family: 'CenturyGothic-Bold';
   font-size: 16px;
   line-height: 40px;
 `

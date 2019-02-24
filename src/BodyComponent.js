@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Link from './Link.js';
 import { slideUp }  from './Animation.js';
+import './fonts.css';
 
 const Wrapper = styled.div`
   animation: ${slideUp} 0.4s ease-out forwards;
@@ -12,8 +13,7 @@ const Wrapper = styled.div`
 
 const BodyText = styled.div`
   color: #FFFFFF;
-  font-family: 'Century Gothic';
-  font-weight: 400;
+  font-family: 'CenturyGothic';
   font-size: 16px;
   letter-spacing: 0.2px;
   text-align: center;
