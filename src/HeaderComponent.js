@@ -17,6 +17,11 @@ const H1 = styled.h1`
   line-height: 48px;
   letter-spacing: 1px;
   margin: auto;
+
+  @media (max-width: 480px) 
+  {
+    line-height: 40px;
+  }
 `
 
 

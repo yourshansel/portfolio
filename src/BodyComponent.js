@@ -17,9 +17,15 @@ const BodyText = styled.div`
   font-size: 16px;
   letter-spacing: 0.2px;
   text-align: center;
-  line-height: 2.4em;
+  line-height: 36px;
   max-width: 480px;
   margin: auto;
+
+  @media (max-width: 480px) 
+  {
+    font-size: 14px;
+    line-height: 28px;
+  }
 `;
 
 
