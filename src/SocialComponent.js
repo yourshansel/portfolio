@@ -37,7 +37,7 @@ class Social extends Component{
     return(
       <Wrapper>
       <Box href="https://twitter.com/yourshansel" target="_blank" title="Twitter"><Twitter/></Box>
-      <Box href="https://instagram.com/yourshansel" target="_blank" title="Unsplash"><Camera/></Box>
+      <Box href="https://yourshansel.tumblr.com" target="_blank" title="Photo"><Camera/></Box>
       <Box href="https://github.com/yourshansel" target="_blank" title="GitHub"><GitHub/></Box>
       <Box href="mailto:yourshansel@gmail.com" title="Email"><Mail/></Box>
       </Wrapper>
